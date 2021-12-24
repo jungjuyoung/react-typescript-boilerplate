@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => {
-	return <div>조그만 참아주세요...</div>;
+	return <div>ㅅㅔ팅 할께 많네...!!!</div>;
 };
 
 export default App;
