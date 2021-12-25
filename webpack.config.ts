@@ -10,6 +10,7 @@ interface Configuration extends WebpackConfiguration {
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
+console.log(`isDevelopment: ${process.env.NODE_ENV}`);
 
 const config: Configuration = {
 	name: 'sleact',
